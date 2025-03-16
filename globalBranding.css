@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+ol {
+    margin-left: 100px;
+}
+ol li {
+    margin: 10px 0px 10px 0px;
+}
+.Topics-ol li {
+    color: blue;
+}
+.oneContent h2 {
+    color: blue;
+}
+.oneContent p {
+    width: 800px;
+}
