@@ -1,19 +1,49 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;  
 }
 ol {
     margin-left: 100px;
+    display: flex;
+    flex-direction: column;
 }
-ol li {
-    margin: 10px 0px 10px 0px;
+
+.Topics-ol a{
+    color: #1236ff;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
-.Topics-ol li {
-    color: blue;
+.oneContentCssClass {
+    height: auto;
+    transition: height 0.5s;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
 }
-.oneContent h2 {
-    color: blue;
+.oneContentCssClass h2 {
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    cursor: pointer;
 }
-.oneContent p {
+.oneContentCssClass p {
     width: 800px;
 }
+
+
+
+
+.hiddencontent {
+    max-height: 60px;
+    overflow: hidden;
+    transition: max-height 0.1s ;/*Because max height is soo much bigger , there is a slight delay. So i made this transition  faster*/
+}
+
+/* Visible content */
+.visibleContent {
+    max-height: 1000px; /* Adjust based on content size */
+    transition: max-height 0.5s ;
+}
+
