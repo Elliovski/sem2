@@ -43,7 +43,7 @@ ol {
 
 /* Visible content */
 .visibleContent {
-    max-height: 1000px; /* Adjust based on content size */
+    max-height: 10000px; /* Adjust based on content size */
     transition: max-height 0.5s ;
 }
 
