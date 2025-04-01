@@ -17,10 +17,11 @@ ol {
 }
 .oneContentCssClass {
     height: auto;
-    transition: height 0.5s;
+    transition: height 0.1s;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
+    
 }
 .oneContentCssClass h2 {
     margin: 10px;
@@ -30,6 +31,7 @@ ol {
 }
 .oneContentCssClass p {
     width: 800px;
+    padding-left: 10px;
 }
 
 
@@ -38,12 +40,12 @@ ol {
 .hiddencontent {
     max-height: 60px;
     overflow: hidden;
-    transition: max-height 0.1s ;/*Because max height is soo much bigger , there is a slight delay. So i made this transition  faster*/
+    transition: max-height 0.7s ;/*Because max height is soo much bigger , there is a slight delay. So i made this transition  faster*/
 }
 
 /* Visible content */
 .visibleContent {
     max-height: 10000px; /* Adjust based on content size */
-    transition: max-height 0.5s ;
+    transition: max-height 3s ;
 }
 
